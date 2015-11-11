@@ -1,0 +1,164 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Play and Talk</title>
+	<link rel="stylesheet" type="text/css" href="../light/style.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="../light/style/color/red.css" media="all" />
+	<link rel="stylesheet" type="text/css" media="screen" href="../light/style/css/prettyPhoto.css"  />
+	<link rel="stylesheet" type="text/css" href="../light/style/type/museo.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="../light/style/type/ptsans.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="../light/style/type/charis.css" media="all" />
+	<!--[if IE 7]>
+	<link rel="stylesheet" type="text/css" href="../light/style/css/ie7.css" media="all" />
+	<![endif]-->
+	<!--[if IE 8]>
+	<link rel="stylesheet" type="text/css" href="../light/style/css/ie8.css" media="all" />
+	<![endif]-->
+	<!--[if IE 9]>
+	<link rel="stylesheet" type="text/css" href="../light/style/css/ie9.css" media="all" />
+	<![endif]-->
+	
+	<script type="text/javascript" src="../light/style/js/jquery-1.6.2.min.js"></script>
+	<script type="text/javascript" src="../light/style/js/ddsmoothmenu.js"></script>
+	<script type="text/javascript" src="../light/style/js/transify.js"></script>
+	<script type="text/javascript" src="../light/style/js/jquery.aw-showcase.js"></script>
+	<script type="text/javascript" src="../light/style/js/jquery.jcarousel.js"></script>
+	<script type="text/javascript" src="../light/style/js/carousel.js"></script>
+	<script type="text/javascript" src="../light/style/js/jquery.prettyPhoto.js"></script>
+	<script type="text/javascript" src="../light/style/js/jquery.superbgimage.min.js"></script>
+	<script type="text/javascript" src="../light/style/js/jquery.slickforms.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function($){
+			$('.forms').dcSlickForms();
+		});
+	</script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			$("#showcase").awShowcase(
+			{
+				content_width:			900,
+				content_height:			400,
+				auto:					true,
+				interval:				3000,
+				continuous:				false,
+				arrows:					true,
+				buttons:				true,
+				btn_numbers:			true,
+				keybord_keys:			true,
+				mousetrace:				false, /* Trace x and y coordinates for the mouse */
+				pauseonover:			true,
+				stoponclick:			false,
+				transition:				'fade', /* hslide/vslide/fade */
+				transition_delay:		0,
+				transition_speed:		500,
+				show_caption:			'onload' /* onload/onhover/show */
+			});
+		});
+	</script>
+</script>
+<!-- 도시 선택 자바스크립트 -->
+<script src="function.js"></script>
+</head>
+
+<body>
+<!-- Fullscreen backgrounds -->
+<div id="thumbs">
+<a href="style/images/art/bg8.jpg"></a>
+<a href="style/images/art/bg9.jpg"></a>
+<a href="style/images/art/bg10.png"></a>
+<a href="style/images/art/bg11.png"></a>
+<a href="style/images/art/bg12.png"></a>
+<a href="style/images/art/bg13.png"></a>
+</div>
+
+<div id="superbgimage">
+	<div class="scanlines"></div>
+</div>
+<!-- End Fullscreen backgrounds -->
+
+<!-- Begin Wrapper -->
+<div id = "wrapper">
+<div id="header">
+	<div class="logo opacity"><a href="../light/index.html"><img src="../light/style/images/PNT_logo.png" alt="" /></a></div>
+	<div class="social">
+		<ul>
+			<li>
+				<a href="" onClick="window.open('../JSP/login.jsp','', 'width=400, height=230');">Login</a>
+				&nbsp;&nbsp;&nbsp;
+				<a href="../JSP/sign_up.jsp">Sign-Up</a>
+				&nbsp;&nbsp;&nbsp;
+				<a href="../JSP/write.jsp">Write a schedule</a>
+			</li>
+		</ul>
+	</div>
+</div>
+  <div class="clear"></div>
+  
+  <!-- Begin Menu -->
+  <div>
+	<form name="search">
+	   <select name="category1" onchange="setCategory2()" style="border:solid 2px #999;">
+	      <option value="">도시를 선택하세요</option>
+	      <option value="서울">서울</option>
+	      <option value="대전">대전</option>
+	      <option value="울산">울산</option>
+	      <option value="광주">광주</option>
+	      <option value="제주도">제주도</option>
+	   </select>
+	   <select name="category2" style="border:solid 2px #999;">
+	      <option value="">구를 선택하세요</option>
+	   </select>
+	   <input type="submit" name="btn" class="btn-style" value="검색" />
+	</form>
+  </div>
+  <!-- End Menu --> 
+  
+  <!-- Begin Container -->
+  <div id="container" class="opacity"> 
+    
+    <!-- Begin Showcase -->
+    <div id="showcase" class="showcase"> 
+      <!-- Each child div in #showcase represents a slide -->
+      <div class="showcase-slide"> 
+        <!-- Put the slide content in a div with the class .showcase-content. -->
+        <div class="showcase-content"> <img src="style/images/art/s1.jpg" alt="1" /> </div>
+      </div>
+      
+      <!-- Each child div in #showcase represents a slide -->
+      <div class="showcase-slide"> 
+        <!-- Put the slide content in a div with the class .showcase-content. -->
+        <div class="showcase-content"> <img src="style/images/art/s2.jpg" alt="2" /> </div>
+      </div>
+      
+      <div class="showcase-slide"> 
+        <!-- Put the slide content in a div with the class .showcase-content. -->
+        <div class="showcase-content"> <iframe src="http://player.vimeo.com/video/24243147?title=0&amp;byline=0&amp;portrait=0" width="900" height="400" frameborder="0"></iframe> </div>
+      </div>
+      
+      <div class="showcase-slide"> 
+        <!-- Put the slide content in a div with the class .showcase-content. -->
+        <div class="showcase-content"> <img src="style/images/art/s3.jpg" alt="3" /> </div>
+      </div>
+      
+      <div class="showcase-slide"> 
+        <!-- Put the slide content in a div with the class .showcase-content. -->
+        <div class="showcase-content"> <img src="style/images/art/s4.jpg" alt="4" /> </div>
+        <div class="showcase-caption">
+				여기에는 사진 설명 등등..
+		</div>
+      </div>
+    </div>
+    <!-- End Showcase -->
+  </div>
+  
+  <div id="copyright" class="opacity">
+    <p>Play And Talk™ </p>
+  </div>
+</div>
+<!-- End Wrapper --> 
+
+<script type="text/javascript" src="style/js/scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	font-size:100%;
+	vertical-align:baseline;
+	background:transparent;
+}
+body {
+	line-height:1
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Malgun Gothic';
+	color: #3f3f3f;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+
+form {
+	margin-top: 10px;
+	text-align:center;
+}
+
+.login_box {
+	margin-top:20px;
+}
+
+.input-text {
+	margin-top: 10px;
+	width: 270px;
+	height: 40px;
+	padding: 5px;
+	font-size: 20px;
+	line-height: 1px;
+	border: solid 1px #c7c7c7;
+	border-radius: 0;
+	-webkit-appearance: none;
+}
+
+.btn-style{
+	margin-top: 10px;
+	width: 270px;
+	height: 40px;
+	border : solid 1px #e6e6e6;
+	border-radius : 3px;
+	moz-border-radius : 3px;
+	-webkit-box-shadow : 0px 0px 2px rgba(0,0,0,1.0);
+	-moz-box-shadow : 0px 0px 2px rgba(0,0,0,1.0);
+	box-shadow : 0px 0px 2px rgba(0,0,0,1.0);
+	font-size : 20px;
+	color : #696869;
+	padding : 1px 17px;
+	background : #ffffff;
+	background : -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(49%,#f1f1f1), color-stop(51%,#e1e1e1), color-stop(100%,#f6f6f6));
+	background : -moz-linear-gradient(top, #ffffff 0%, #f1f1f1 49%, #e1e1e1 51%, #f6f6f6 100%);
+	background : -webkit-linear-gradient(top, #ffffff 0%, #f1f1f1 49%, #e1e1e1 51%, #f6f6f6 100%);
+	background : -o-linear-gradient(top, #ffffff 0%, #f1f1f1 49%, #e1e1e1 51%, #f6f6f6 100%);
+	background : -ms-linear-gradient(top, #ffffff 0%, #f1f1f1 49%, #e1e1e1 51%, #f6f6f6 100%);
+	background : linear-gradient(top, #ffffff 0%, #f1f1f1 49%, #e1e1e1 51%, #f6f6f6 100%);
+	filter : progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0 );
+
+}
+
+input:focus.input-text {
+    /* To give a little highlight on active elements */
+    border:solid #ff8040 3px;
+}
+
+::-webkit-input-placeholder { /* Webkit browsers */
+	text-align:center;
+	padding: 10px;
+	font-size: 20px;
+	line-height: 1px;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+	text-align:center;
+	padding: 10px;
+	font-size: 20px;
+	line-height: 1px;
+	opacity: 1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+	text-align:center;
+	padding: 10px;
+	font-size: 20px;
+	line-height: 1px;
+	opacity: 1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+	text-align:center;
+	padding: 10px;
+	font-size: 20px;
+	line-height: 1px;
+}
