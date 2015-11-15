@@ -13,7 +13,7 @@
 			<h1>ID/PW를 입력해주세요.</h1>
 			<input type="text" name="userid" placeholder="ID" maxlength="10" class="input-text" required autofocus>
 			<input type="password" name="userpw" placeholder="PASSWORD" class="input-text" maxlength="10" required><br>
-			<input type="submit" class="btn-style" name="login" value="로그인" formaction="login_check.jsp">
+			<input type="submit" class="btn-style" name="login" value="로그인" formaction="login_action.jsp">
 		</form>
 	</div>
 </body>
